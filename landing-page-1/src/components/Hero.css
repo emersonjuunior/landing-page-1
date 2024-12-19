@@ -1,0 +1,113 @@
+#hero {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #272727;
+  padding-top: 1.4em;
+}
+
+#titles-container {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  align-self: center;
+}
+
+#titles-wrapper {
+  width: 85%;
+  height: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#hero h1 {
+  font-size: 60px;
+  margin-bottom: 0.4em;
+}
+
+#hero h2 {
+  margin-bottom: 1.6em;
+  font-weight: 350;
+}
+
+#cta-button {
+  width: 350px;
+  height: 70px;
+  font-size: 18px;
+  margin-bottom: 2em;
+}
+
+#social-prove-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-prove-items {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: rgba(36, 36, 36, 0.7);
+  border: 2px solid #272727;
+}
+
+.plus {
+  color: #fc4664;
+  font-size: 80px;
+}
+
+.social-prove-items p {
+  font-size: 20px;
+}
+
+.social-prove-items span {
+  color: #6320ee;
+  font-weight: bold;
+}
+
+#image-container {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  background-image: url("/blob-haikei.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.degrade-1 {
+  background: linear-gradient(
+    90deg,
+    rgba(248, 247, 255, 1) 37%,
+    rgba(252, 70, 100, 1) 72%,
+    rgba(252, 70, 100, 1) 94%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.degrade-2 {
+  color: #fc4664;
+}
+
+.degrade-3 {
+  background: linear-gradient(
+    90deg,
+    rgba(252, 70, 100, 1) 22%,
+    rgba(99, 32, 238, 1) 41%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.degrade-4,
+.degrade-5 {
+  color: #6320ee;
+}

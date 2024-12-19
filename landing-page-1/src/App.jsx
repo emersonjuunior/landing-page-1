@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
 import Testimonials from "./components/Testimonials";
 import Questions from "./components/Questions";
+import LastCTA from "./components/LastCTA";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Benefits />
       <Testimonials />
       <Questions />
+      <LastCTA />
     </>
   );
 }

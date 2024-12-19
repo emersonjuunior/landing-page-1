@@ -14,7 +14,7 @@ const Header = () => {
           <a href="#">
             <li className="nav-item">Vantagens</li>
           </a>
-          <a href="#">
+          <a href="#testimonials">
             <li className="nav-item">Depoimentos</li>
           </a>
           <a href="#">

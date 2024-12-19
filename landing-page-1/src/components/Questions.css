@@ -1,11 +1,14 @@
-#questions-container, .questions-item, .questions-title, .questions-title > div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#questions-container,
+.questions-item,
+.questions-title,
+.questions-title > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #questions {
-  background-color: #242424;
+  background-color: #212121;
   padding-bottom: 5em;
   border-bottom: 2px solid #272727;
 }
@@ -59,7 +62,7 @@
 }
 
 .questions-answer {
-    background-color: #303030;
+  background-color: #303030;
   width: 100%;
   font-size: 14px;
   font-weight: 300;

@@ -6,17 +6,21 @@ import Benefits from "./components/Benefits";
 import Testimonials from "./components/Testimonials";
 import Questions from "./components/Questions";
 import LastCTA from "./components/LastCTA";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Particles id="particles" />
       <Header />
-      <Hero />
-      <Benefits />
-      <Testimonials />
-      <Questions />
-      <LastCTA />
+      <main>
+        <Hero />
+        <Benefits />
+        <Testimonials />
+        <Questions />
+        <LastCTA />
+      </main>
+      <Footer />
     </>
   );
 }

@@ -2,22 +2,22 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div id="logo">
         <p>lidia <span>personal</span></p>
       </div>
       <nav>
         <ul>
-          <a href="#">
+          <a href="#home">
             <li className="nav-item">Início</li>
           </a>
-          <a href="#">
+          <a href="#benefits">
             <li className="nav-item">Vantagens</li>
           </a>
           <a href="#testimonials">
             <li className="nav-item">Depoimentos</li>
           </a>
-          <a href="#">
+          <a href="#questions">
             <li className="nav-item">Perguntas</li>
           </a>
         </ul>

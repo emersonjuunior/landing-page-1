@@ -42,7 +42,7 @@ export default function Slider() {
                       </p>
                     </div>
                     <img
-                      src="/5-stars.png"
+                      src="/landing-page-1/5-stars.png"
                       alt="5 estrelas"
                       className="rating"
                     />

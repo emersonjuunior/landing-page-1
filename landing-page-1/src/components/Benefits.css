@@ -1,6 +1,6 @@
 #benefits {
   background-color: #212121;
-  padding: 3.7em 0;
+  padding-bottom: 3.7em;
   border-bottom: 1px solid #272727;
 }
 
@@ -9,6 +9,7 @@
   font-size: 36px;
   margin-bottom: 1.5em;
   font-weight: 550;
+  padding-top: .5em;
 }
 
 #benefits h3 span {

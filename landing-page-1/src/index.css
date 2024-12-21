@@ -17,6 +17,20 @@ body {
   background-color: #242424;
 }
 
+#hero,
+#benefits,
+#testimonials {
+  padding-top: 10vh;
+}
+
+.active{
+  background-color: #fc4664;
+  border: 1px solid #ee2d4d;
+  padding: 10px;
+  font-weight: 550;
+}
+
+
 .btn {
   display: inline-block;
   text-align: center;

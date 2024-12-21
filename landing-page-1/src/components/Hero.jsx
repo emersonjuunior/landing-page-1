@@ -22,17 +22,17 @@ const Hero = () => {
           <div id="social-prove-container">
         <div className="social-prove-items">
           <div className="plus">+</div>
-          <div><p>10 <span>anos</span></p>
+          <div className="social-description"><p>10 <span>anos</span></p>
           <p>de experiência</p></div>
         </div>
         <div className="social-prove-items">
           <div className="plus">+</div>
-          <div><p>5000 <span>kg</span></p>
+          <div className="social-description"><p>5000 <span>kg</span></p>
           <p>eliminados</p></div>
         </div>
         <div className="social-prove-items">
           <div className="plus">+</div>
-          <div><p>2 <span>mil</span></p>
+          <div className="social-description"><p>2 <span>mil</span></p>
           <p>alunos</p></div>
         </div>
       </div>

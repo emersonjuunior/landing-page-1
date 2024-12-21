@@ -1,9 +1,8 @@
 #hero {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   justify-content: space-between;
   border-bottom: 2px solid #272727;
-  padding-top: 1.4em;
 }
 
 #titles-container {
@@ -33,9 +32,9 @@
 }
 
 #cta-button {
-  width: 350px;
-  height: 70px;
-  font-size: 18px;
+  width: 380px;
+  height: 80px;
+  font-size: 20px;
   margin-bottom: 2em;
 }
 
@@ -44,6 +43,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 4px;
 }
 
 .social-prove-items {
@@ -75,7 +75,7 @@
   width: 50%;
   justify-content: center;
   background-image: url("/blob-haikei.svg");
-  background-size: 100%;
+  background-size: 900px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -110,4 +110,187 @@
 .degrade-4,
 .degrade-5 {
   color: #6320ee;
+}
+
+/* smaller desktops */
+@media (max-width: 1600px) {
+  #titles-wrapper {
+    width: 90%;
+  }
+
+  #social-prove-container {
+    width: 100%;
+    padding: 4px;
+  }
+
+  .social-prove-items p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1300px) {
+  #titles-wrapper {
+    width: 95%;
+    min-height: fit-content;
+  }
+
+  #hero h1 {
+    font-size: 54px;
+    margin-top: .4em;
+  }
+
+  #hero h2 {
+    font-size: 24px;
+  }
+
+  #image-container {
+    width: 42%;
+  }
+
+  #social-prove-container {
+    width: 100%;
+    justify-content: start;
+  }
+
+  .social-prove-items {
+    height: 80px;
+    gap: 5px;
+  }
+}
+
+/* tablet */
+@media (max-width: 1024px) {
+  #hero {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  #titles-container {
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+  }
+
+  #titles-wrapper {
+    width: 90%;
+    height: 100%;
+    padding: 3.5em 20px 20px 20px;
+  }
+
+  #hero h1 {
+    font-size: 42px;
+    margin-bottom: 0.2em;
+  }
+
+  #hero h2 {
+    font-size: 22px;
+    margin-bottom: 1.2em;
+  }
+
+  #cta-button {
+    width: 370px;
+    height: 75px;
+    font-size: 20px;
+    margin-bottom: 1em;
+  }
+
+  #image-container {
+    width: 100%;
+    height: 50%;
+    background-size: 65%;
+  }
+}
+
+/* smartphones */
+@media (max-width: 600px) {
+
+
+  #hero {
+    min-height: 150vh;
+  }
+
+  #titles-container {
+    justify-content: center;
+    min-height: 90vh;
+    padding-left: 1em;
+    overflow: visible;
+  }
+
+  #titles-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  #hero h1 {
+    font-size: 38px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+  }
+
+  #cta-button {
+    width: 92%;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  #social-prove-container {
+    align-items: start;
+    flex-direction: column;
+  }
+
+  .social-prove-items {
+    width: 90%;
+    justify-content: space-around;
+  }
+
+  .plus {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .social-description {
+    width: 70%;
+  }
+
+  .social-description p {
+    font-size: 18px;
+  }
+
+  #image-container {
+    height: 50vh;
+    background-size: 400px;
+  }
+
+  #image-container img {
+    object-fit: cover;
+    width: 92%;
+  }
+}
+
+@media (max-height: 799px) {
+  #hero {
+    min-height: fit-content;
+  }
+
+  #titles-container {
+    min-height: fit-content;
+  }
+
+  #image-container {
+    min-height: 300px;
+  }
+}
+
+/* resolution 1:1 */
+@media(min-height: 800px) and (min-width: 600px) and (max-width: 1000px) {
+  #titles-container {
+    min-height: fit-content;
+  }
+
+  #image-container {
+    background-size: 400px;
+  }
 }

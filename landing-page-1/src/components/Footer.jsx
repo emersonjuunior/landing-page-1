@@ -12,7 +12,7 @@ const Footer = () => {
         <div id="footer-navigation">
           <h6>Navegação</h6>
           <ul>
-            <li><a href="#header">Início</a></li>
+            <li><a href="#hero">Início</a></li>
             <li><a href="#benefits">Vantagens</a></li>
             <li><a href="#testimonials">Depoimentos</a></li>
             <li><a href="#questions">Perguntas</a></li>
@@ -39,7 +39,7 @@ const Footer = () => {
         <i className="fa-brands fa-instagram"></i>
         <i className="fa-brands fa-youtube"></i>
         <i className="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-whatsapp"></i>
+        <i className="fa-brands fa-whatsapp"></i>
         <i className="fa-brands fa-tiktok"></i>
       </div>
       <p id="copyright">

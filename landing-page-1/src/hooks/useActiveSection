@@ -1,0 +1,42 @@
+import { useState, useEffect } from "react";
+
+const useActiveSection = () => {
+  const [activeSection, setActiveSection] = useState("");
+  const headerHeight = window.innerHeight * 0.1;
+
+  const detectActiveSection = (sections) => {
+    let currentSection = "";
+
+    sections.forEach((section) => {
+      const { offsetTop, offsetHeight } = section;
+      const pageYOffset = window.scrollY;
+
+      if (
+        pageYOffset >= offsetTop - headerHeight &&
+        pageYOffset < offsetTop + offsetHeight - headerHeight
+      ) {
+        currentSection = section.getAttribute("id");
+      }
+    });
+
+    setActiveSection(currentSection);
+  };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const sections = document.querySelectorAll("section");
+      detectActiveSection(sections);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  return activeSection;
+};
+
+export default useActiveSection;

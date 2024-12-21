@@ -24,7 +24,7 @@ const Questions = () => {
               </div>
               <div>
                 <img
-                  src="/caret-down.svg"
+                  src="/landing-page-1/caret-down.svg"
                   alt="Setinha para abrir pergunta"
                   className={isOpen[index] ? "caret up" : "caret down"}
                 />

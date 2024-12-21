@@ -9,7 +9,7 @@ const Benefits = () => {
       <div id="benefits-container">
         <div className="benefits-item">
           <div className="benefits-content">
-            <img src="/body.svg" alt="Corpo" />
+            <img src="/landing-page-1/body.svg" alt="Corpo" />
             <h4>Seu <span>corpo</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">
@@ -21,7 +21,7 @@ const Benefits = () => {
             </div>
           </div>
           <div className="benefits-content">
-            <img src="/trust.svg" alt="Confiança" />
+            <img src="/landing-page-1/trust.svg" alt="Confiança" />
             <h4>Sua <span>confiança</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">
@@ -33,7 +33,7 @@ const Benefits = () => {
             </div>
           </div>
           <div className="benefits-content">
-            <img src="/energy.svg" alt="Energia" />
+            <img src="/landing-page-1/energy.svg" alt="Energia" />
             <h4>Sua <span>energia</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">
@@ -47,7 +47,7 @@ const Benefits = () => {
         </div>
         <div className="benefits-item">
           <div className="benefits-content">
-            <img src="/mental-health.svg" alt="Saúde Mental" />
+            <img src="/landing-page-1/mental-health.svg" alt="Saúde Mental" />
             <h4>Sua <span>saúde mental</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">
@@ -60,7 +60,7 @@ const Benefits = () => {
             </div>
           </div>
           <div className="benefits-content">
-            <img src="/lifestyle.svg" alt="Estilo de vida" />
+            <img src="/landing-page-1/lifestyle.svg" alt="Estilo de vida" />
             <h4>Seu <span>estilo de vida</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">
@@ -72,7 +72,7 @@ const Benefits = () => {
             </div>
           </div>
           <div className="benefits-content">
-            <img src="/persistence.svg" alt="Persistência" />
+            <img src="/landing-page-1/persistence.svg" alt="Persistência" />
             <h4>Sua <span>persistência</span></h4>
             <div className="decoration"></div>
             <div className="benefits-description">

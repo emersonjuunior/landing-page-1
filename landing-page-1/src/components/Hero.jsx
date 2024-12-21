@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
       </div>
       <div id="image-container">
-        <img src="/lidia.png" alt="Lídia Personal" />
+        <img src="/landing-page-1/lidia.png" alt="Lídia Personal" />
       </div>
     </section>
   );

@@ -15,6 +15,7 @@ html {
 
 body {
   background-color: #242424;
+  overflow-x: hidden;
 }
 
 #hero,

@@ -12,12 +12,12 @@
 }
 
 #last-cta-container {
-  background-color: rgba(36, 36, 36, 0.4); 
-  backdrop-filter: blur(10px); 
-  border-radius: 10px; 
+  background-color: rgba(36, 36, 36, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
   width: 60%;
   padding: 60px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 #last-cta h2 {
@@ -43,4 +43,37 @@
   width: 300px;
   height: 70px;
   font-size: 24px;
+}
+
+/* smaller desktops and tablets */
+@media (max-width: 1300px) {
+  #last-cta-container {
+    width: 75%;
+  }
+}
+
+/* screens smaller than a tablet */
+@media (max-width: 767px) {
+  #last-cta-container {
+    width: 85%;
+    padding: 20px;
+  }
+
+  #last-cta h2 {
+    font-size: 36px;
+    margin-bottom: 0.5em;
+  }
+
+  #last-cta h3 {
+    font-size: 18px;
+    margin-bottom: 1.2em;
+    font-weight: 400;
+  }
+
+  #last-cta button {
+    width: 300px;
+    height: 70px;
+    font-size: 20px;
+  }
+  
 }

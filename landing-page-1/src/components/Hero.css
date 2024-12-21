@@ -80,6 +80,10 @@
   background-position: center;
 }
 
+#image-container-img {
+  object-fit: cover;
+}
+
 .degrade-1 {
   background: linear-gradient(
     90deg,

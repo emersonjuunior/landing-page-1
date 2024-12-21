@@ -76,3 +76,29 @@
   color: #fc4664;
   font-weight: 500;
 }
+
+/* screens smaller than a tablet */
+@media (max-width: 767px){
+  #benefits h3 {
+    font-size: 32px;
+  }
+
+  .benefits-item {
+    flex-wrap: wrap;
+  }
+
+  .benefits-content {
+    flex-basis: 85vw;
+  }
+
+  .benefits-content:hover {
+    flex-basis: 95vw;
+  }
+
+  .benefits-description{
+    width: 80vw;
+    max-width: 80vw;
+    max-width: unset;
+  }
+
+}

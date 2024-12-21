@@ -3,7 +3,7 @@ export const questions = [
     id: 1,
     title: "O que é um personal trainer e como ele pode me ajudar?",
     answer:
-      "Um personal trainer é um profissional especializado em planejamento e orientação de atividades físicas. Ele pode ajudar você a atingir seus objetivos de forma eficiente e segura, seja para emagrecimento, ganho de massa muscular, melhoria de condicionamento físico ou qualidade de vida.",
+      "É um profissional especializado em planejamento e orientação de atividades físicas. Ele pode ajudar você a atingir seus objetivos de forma eficiente e segura, seja para emagrecimento, ganho de massa muscular, ou melhoria de qualidade de vida.",
   },
   {
     id: 2,

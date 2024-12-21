@@ -82,7 +82,7 @@
 .testimonial-p-container {
   min-height: 120px;
   max-height: 120px;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 
 .marks {
@@ -93,6 +93,29 @@
 
 .rating {
   width: 30%
+}
+
+/* smaller desktops */
+@media (max-width: 1000px){
+  .swiper {
+    height: fit-content;
+  }
+
+  .testimonial-container {
+    flex-direction: column;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 400px){
+  #testimonials h3 {
+    font-size:36px;
+    letter-spacing: 5px;
+  }
+
+  .testimonial-item {
+    width: 280px;
+  }
 }
 
 

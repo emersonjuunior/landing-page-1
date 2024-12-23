@@ -209,7 +209,7 @@
 /* smartphones */
 @media (max-width: 600px) {
   #hero {
-    min-height: 150vh;
+    min-height: fit-content;
   }
 
   #titles-container {
@@ -265,24 +265,11 @@
   #image-container {
     height: 50vh;
     background-size: 400px;
+    min-height: 300px;
   }
 
   #image-container img {
     object-fit: cover;
-    width: 80%;
-  }
-}
-
-@media (max-height: 799px) {
-  #hero {
-    min-height: fit-content;
-  }
-
-  #titles-container {
-    min-height: fit-content;
-  }
-
-  #image-container {
-    min-height: 300px;
+    width: 95%;
   }
 }

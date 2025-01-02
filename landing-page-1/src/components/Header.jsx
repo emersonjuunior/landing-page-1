@@ -27,43 +27,41 @@ const Header = () => {
       <header>
         <div id="logo">
           <p>
-            lidia <span>personal</span>
+            <a href="#hero">
+              lidia <span>personal</span>
+            </a>
           </p>
         </div>
         <nav>
           <ul>
             <a href="#hero">
               <li
-                className={`nav-item ${
-                  activeSection === "hero" ? "active" : ""
-                }`}
+                className={`nav-item ${activeSection === "hero" ? "active" : ""
+                  }`}
               >
                 Início
               </li>
             </a>
             <a href="#benefits">
               <li
-                className={`nav-item ${
-                  activeSection === "benefits" ? "active" : ""
-                }`}
+                className={`nav-item ${activeSection === "benefits" ? "active" : ""
+                  }`}
               >
                 Vantagens
               </li>
             </a>
             <a href="#testimonials">
               <li
-                className={`nav-item ${
-                  activeSection === "testimonials" ? "active" : ""
-                }`}
+                className={`nav-item ${activeSection === "testimonials" ? "active" : ""
+                  }`}
               >
                 Depoimentos
               </li>
             </a>
             <a href="#questions">
               <li
-                className={`nav-item ${
-                  activeSection === "questions" ? "active" : ""
-                }`}
+                className={`nav-item ${activeSection === "questions" ? "active" : ""
+                  }`}
               >
                 Perguntas
               </li>

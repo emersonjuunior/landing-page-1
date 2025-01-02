@@ -79,7 +79,7 @@ footer i:hover {
 /* smaller desktops */
 @media (max-width: 1200px) {
   #line {
-    width: 65%;
+    width: 75%;
   }
 
   #footer-items-container {

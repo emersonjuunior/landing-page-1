@@ -75,7 +75,7 @@
   width: 50%;
   justify-content: center;
   background-image: url("/blob-haikei.svg");
-  background-size: 900px;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -275,5 +275,20 @@
   #image-container img {
     object-fit: cover;
     width: 95%;
+  }
+}
+
+/* smaller height */
+@media (max-height: 700px){
+  #hero h1 {
+    font-size: 36px;
+  }
+
+  #hero h2 {
+    font-size: 20px;
+  }
+
+  #cta-button {
+    margin-bottom: .8em;
   }
 }
